@@ -724,18 +724,18 @@
     "interval" : 86400, // once every day
     "tooltip": true,
 },
-
+  
 "custom/outlook": {
     "format": "",
-    "on-click": "microsoft-edge-dev --app=https://outlook.office.com/mail/",
-    "on-click-right": "microsoft-edge-dev https://outlook.office.com/mail/",
+    "on-click": "com.microsoft.Edge --app=https://outlook.office.com/mail/",
+    "on-click-right": "com.microsoft.Edge https://outlook.office.com/mail/",
     "tooltip": false
   },
 
 "custom/teams": {
     "format": " {}",
-    "on-click": "microsoft-edge-dev --app=https://teams.microsoft.com/go",
-    "on-click-right": "chromium --app=https://teams.microsoft.com/go",
+    "on-click": "com.microsoft.Edge --app=https://teams.microsoft.com/v2/",
+    "on-click-right": "chromium --app=https://teams.microsoft.com/v2/",
     "tooltip": false
   },
 
